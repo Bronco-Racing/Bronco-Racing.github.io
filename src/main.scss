@@ -1,2 +1,7 @@
 $primary: #af123f;
 @import "../node_modules/bulma/bulma.sass";
+
+// Ensure footer is at the bottom
+main {
+  min-height: 100vh;
+}

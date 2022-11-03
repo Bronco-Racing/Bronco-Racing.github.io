@@ -1,16 +1,14 @@
 import { IonIcon } from "@ionic/react";
-import { logoGithub, logoFacebook, mail, logoInstagram } from "ionicons/icons";
+import { logoGithub, logoFacebook, logoInstagram } from "ionicons/icons";
 
 export default function TheFooter() {
   return (
     <footer className="footer">
-      <span>SCU Copyright and things?</span>
-
-      <div className="buttons socials">
+      <div className="buttons socials is-flex-row is-justify-content-center">
         <a
           target="_blank"
           href="https://github.com/Bronco-Racing"
-          className="social"
+          className="social mx-2"
         >
           <IonIcon className="logoGithub icon is-medium" icon={logoGithub} />
         </a>
@@ -18,7 +16,7 @@ export default function TheFooter() {
         <a
           target="_blank"
           href="https://www.instagram.com/bronco_racing/"
-          className="social instagram"
+          className="social mx-2"
         >
           <IonIcon
             className="logoInstagram icon is-medium"
@@ -29,7 +27,7 @@ export default function TheFooter() {
         <a
           target="_blank"
           href="https://www.facebook.com/broncoracing/"
-          className="social"
+          className="social mx-2"
         >
           <IonIcon
             className="logoFacebook icon is-ionic is-medium"

@@ -16,13 +16,51 @@ main {
   color: #db305e;
 }
 
+// Parallax
+// See example implementation in Sponsors.js
+.parallax {
+  position: relative;
+
+  > .parallax-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+    opacity: 0.1;
+  }
+
+  $bleed: 6rem;
+  $bleedMore: 10rem;
+  > .parallax-content {
+    background: white;
+
+    &.has-bleed {
+      background: linear-gradient(transparent 0 $bleed, white $bleed);
+    }
+    &.has-bleed-more {
+      background: linear-gradient(transparent 0 $bleedMore, white $bleed);
+    }
+  }
+
+  $blur: 0.2rem;
+  > .parallax-background.has-blur {
+    filter: blur($blur);
+  }
+}
+
 .members {
+  gap: 2rem;
   .member {
-    height: 8rem;
-    width: 12rem;
+    border-bottom: 0.66rem $primary solid;
+    width: 22rem;
+    gap: 1rem;
+    margin-bottom: 0;
     img {
       max-width: 100%;
-      max-height: 100%;
+      max-height: 8rem;
     }
   }
 }

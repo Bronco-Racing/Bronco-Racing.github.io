@@ -3,14 +3,15 @@ export default function SponsorCard(props) {
     <a
       target="_blank"
       href={props.sponsor.link}
-      className="mx-5 my-3 member is-flex is-flex-column is-align-items-center is-justify-content-center"
+      className="member box is-flex is-flex-direction-column is-align-items-center is-justify-content-center"
     >
       {/* <h4 className="subtitle title is-4">{props.sponsor.name}</h4> */}
       {props.sponsor.img ? (
-        <img src={props.sponsor.img} className="image" />
+        <img className="image" src={props.sponsor.img} />
       ) : (
         <h4 className="title is-4 has-text-centered">{props.sponsor.name}</h4>
       )}
+      <p className="has-text-centered">{props.sponsor.description}</p>
     </a>
   );
 }

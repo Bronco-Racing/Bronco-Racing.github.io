@@ -50,7 +50,7 @@ export default function Sponsors() {
         />
 
         <div className="parallax-gap">
-          <div className="hero is-medium">
+          <div className="hero is-medium container has-text-centered">
             <div className="hero-body">
               <p className="title">Sponsors</p>
               <p className="subtitle">
@@ -78,7 +78,7 @@ export default function Sponsors() {
                 </div>
               </div>
 
-              <div className=" section">
+              <div className="container">
                 <hr />
               </div>
             </>
@@ -96,13 +96,12 @@ export default function Sponsors() {
               precision parts or provide components that will be useful for an
               electric car, feel free to reach out.
             </p>
-            <p className="content">
+            <p className="content mb-6">
               If your company is interested in sponsoring Bronco Racing, please
               reach out to the team to request a copy of our sponsorship packet.
               Our sponsorship packet details levels of sponsorship and what is
               included at each level.
             </p>
-            <p className="content"></p>
           </div>
         </div>
       </div>

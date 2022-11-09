@@ -1,0 +1,78 @@
+h1, h2 {
+    color: #8B0000 !important;
+}
+
+h1 {
+    text-align: center;
+    color: white !important;
+}
+
+h2 {
+    text-align: center;
+
+
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 50%;
+    min-height: 100vh;
+}
+ img{
+    border-radius: 10%;
+    height: 75%;
+    width: 75%;
+ }
+
+
+.content div {
+    width: max(50vw, 450px);
+    justify-content: space-around;
+
+}
+
+.header{
+    background-color: #dddddd;
+    background-image:url("./SCDI.jpeg"); 
+    /* Add the blur effect
+    filter: blur(8px);
+    -webkit-filter: blur(8px); */
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.text-cent-left{
+    text-align: center;
+    margin-top: 7%;
+}
+
+.text-cent-right{
+    text-align: center;
+    margin-top: 7%;
+}
+
+.title {
+    height: 500px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+    font-size: 5rem !important;
+}

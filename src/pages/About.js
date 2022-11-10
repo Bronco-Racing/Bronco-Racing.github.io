@@ -1,7 +1,7 @@
 import './About.scss';
 
 export default function About() {
-    return <div>
+    return <div className="about">
         <div class="bg-image"></div>
 
         <div class="header">

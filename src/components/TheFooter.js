@@ -1,6 +1,6 @@
-import { IonIcon } from "@ionic/react";
-import { logoGithub, logoFacebook, logoInstagram } from "ionicons/icons";
-import "./TheFooter.scss"
+import { IonIcon } from '@ionic/react'
+import { logoGithub, logoFacebook, logoInstagram } from 'ionicons/icons'
+import './TheFooter.scss'
 
 export default function TheFooter() {
   return (
@@ -37,5 +37,5 @@ export default function TheFooter() {
         </a>
       </div>
     </footer>
-  );
+  )
 }

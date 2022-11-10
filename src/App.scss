@@ -1,13 +1,10 @@
-@import "./index.scss";
-@import "../node_modules/bulma/bulma.sass";
+@import './index.scss';
+@import '../node_modules/bulma/bulma.sass';
 
 // Ensure footer is at the bottom
 main {
   min-height: 100vh;
 }
-
-
-
 
 // Parallax
 // See example implementation in Sponsors.js

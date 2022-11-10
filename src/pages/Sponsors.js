@@ -1,5 +1,5 @@
-import SponsorCard from "../components/SponsorCard";
-import "./Sponsors.scss";
+import SponsorCard from '../components/SponsorCard'
+import './Sponsors.scss'
 // import ContactForm from "./components/ContactForm";
 
 export default function Sponsors() {
@@ -20,27 +20,27 @@ export default function Sponsors() {
     {
       members: [
         {
-          name: "Altium",
-          img: "https://mma.prnewswire.com/media/1009467/Altium_Black_Logo.jpg?p=facebook",
+          name: 'Altium',
+          img: 'https://mma.prnewswire.com/media/1009467/Altium_Black_Logo.jpg?p=facebook',
           description:
-            "From automotive and aerospace to consumer electronics and medical devices, Altium is always there for designers whenever and wherever.",
-          link: "https://www.altium.com",
-        },
-      ],
+            'From automotive and aerospace to consumer electronics and medical devices, Altium is always there for designers whenever and wherever.',
+          link: 'https://www.altium.com'
+        }
+      ]
     },
     {
-      group: "Special Thanks",
+      group: 'Special Thanks',
       members: [
         {
-          name: "Santa Clara University",
-          img: "https://upload.wikimedia.org/wikipedia/en/thumb/a/ad/Santa_Clara_U_Seal.svg/1200px-Santa_Clara_U_Seal.svg.png",
+          name: 'Santa Clara University',
+          img: 'https://upload.wikimedia.org/wikipedia/en/thumb/a/ad/Santa_Clara_U_Seal.svg/1200px-Santa_Clara_U_Seal.svg.png',
           description:
             "Located in the heart of Silicon Valley, Santa Clara University blends high-tech innovation with a social consciousness grounded in the Jesuit educational tradition. Santa Clara's undergraduate and graduate programs span areas ranging from psychology to sustainable-energy engineering and from theatre arts to business analytics.",
-          link: "https://www.scu.edu",
-        },
-      ],
-    },
-  ];
+          link: 'https://www.scu.edu'
+        }
+      ]
+    }
+  ]
 
   return (
     <>
@@ -69,7 +69,7 @@ export default function Sponsors() {
                 {a.group ? (
                   <h3 className="subtitle is-3 has-text-centered">{a.group}</h3>
                 ) : (
-                  ""
+                  ''
                 )}
 
                 <div className="members is-flex is-flex-wrap-wrap is-justify-content-center">
@@ -107,5 +107,5 @@ export default function Sponsors() {
         </div>
       </div>
     </>
-  );
+  )
 }

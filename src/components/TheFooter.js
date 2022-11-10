@@ -1,5 +1,6 @@
 import { IonIcon } from "@ionic/react";
 import { logoGithub, logoFacebook, logoInstagram } from "ionicons/icons";
+import "./TheFooter.scss"
 
 export default function TheFooter() {
   return (

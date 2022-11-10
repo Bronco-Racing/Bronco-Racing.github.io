@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Sponsors from './pages/Sponsors';
 import TheFooter from "./components/TheFooter";
+import "./App.scss"
 
 export default function App() {
   return (

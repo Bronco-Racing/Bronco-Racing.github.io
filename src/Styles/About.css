@@ -37,7 +37,7 @@ h2 {
 
 .header{
     background-color: #dddddd;
-    background-image:url("./SCDI.jpeg"); 
+    background-image:url("../assets/SCDI.jpg"); 
     /* Add the blur effect
     filter: blur(8px);
     -webkit-filter: blur(8px); */

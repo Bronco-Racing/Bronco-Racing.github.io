@@ -5,7 +5,7 @@ export default function About() {
         <div class="bg-image"></div>
 
         <div class="header">
-            <h1 className='title is-1'>About</h1>
+            <h1 className='title-ab is-1'>About</h1>
         </div>
 
         <div className='content'>

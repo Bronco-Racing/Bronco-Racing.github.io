@@ -1,4 +1,4 @@
-import SponsorCard from "./components/SponsorCard";
+import SponsorCard from "../components/SponsorCard";
 // import ContactForm from "./components/ContactForm";
 
 export default function Sponsors() {

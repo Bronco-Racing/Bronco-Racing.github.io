@@ -46,6 +46,3 @@ export default function Home() {
         </div>
       </div>
   }
-        //     <button className="learn-more" onClick={navigateToAbout}>Learn More</button>
-
-        //     <button className="sponsor-us" onClick={navigateToSponsor}>Sponsor Us</button>

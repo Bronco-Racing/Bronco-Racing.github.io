@@ -21,7 +21,7 @@ export default function About() {
             </div>
 
             <div className='img-container'>
-            <img src="./FSAE Leadership Picture-1.jpg" alt="SCU FSAE Leadership"></img>
+              <img src="./FSAE Leadership Picture-1.jpg" alt="SCU FSAE Leadership"></img>
             </div>
 
             <div className='text-cent-right'>

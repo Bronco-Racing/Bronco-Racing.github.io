@@ -1,4 +1,4 @@
-.about {
+.home {
 
 h1, h2 {
     color: #8B0000 !important;
@@ -13,6 +13,10 @@ h2 {
     text-align: center;
 }
 
+p{
+  text-align: center;
+}
+
 .content {
     display: flex;
     flex-direction: row;
@@ -20,6 +24,7 @@ h2 {
     height: 50%;
     min-height: 100vh;
     max-width: 1200px;
+    width: max(100%, 450px);
     margin: auto auto;
 }
  img{
@@ -30,9 +35,8 @@ h2 {
 
 
 .content div {
-    width: max(50%, 450px);
+    width: max(100%, 550px);
     justify-content: space-around;
-
 }
 
 .header{
@@ -58,12 +62,8 @@ h2 {
 }
 
 
-.text-cent-left{
-    text-align: center;
-    margin-top: 7%;
-}
 
-.text-cent-right{
+.text-cent{
     text-align: center;
     margin-top: 7%;
 }
@@ -79,6 +79,30 @@ h2 {
     font-size: 5rem !important;
     font-weight: 600;
     line-height: 1.125;
+}
+
+.learn-more{
+  background-color: #af123f;
+  color: white;
+  border-color: #af123f;
+  box-shadow: none;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-size: 20px;
+  transition-duration: 0.4s;
+  text-align: center;
+  margin-top: 1%;
+  min-width: 150px;
+}
+
+.learn-more:hover {
+  background-color: white;
+  border-color: #af123f;
+  color: black;
+  box-shadow: none;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-size: 20px;
 }
 
 }

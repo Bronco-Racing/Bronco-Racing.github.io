@@ -1,8 +1,9 @@
-# Getting Started 
+# Getting Started
 
 ### `npm install`
 
 Installs app dependencies (React, Bulma, etc).
+
 ### `npm start`
 
 Runs the app in the development mode.\

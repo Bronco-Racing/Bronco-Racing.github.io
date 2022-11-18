@@ -13,5 +13,5 @@ export default function SponsorCard(props) {
       )}
       <p className="has-text-centered">{props.sponsor.description}</p>
     </a>
-  );
+  )
 }

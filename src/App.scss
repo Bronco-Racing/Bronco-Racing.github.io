@@ -1,21 +1,9 @@
-$primary: #af123f;
-@import "../node_modules/bulma/bulma.sass";
+@import './index.scss';
+@import '../node_modules/bulma/bulma.sass';
 
 // Ensure footer is at the bottom
 main {
   min-height: 100vh;
-}
-
-
-
-.logoGithub {
-  color: #2e333a;
-}
-.logoFacebook {
-  color: #336de1;
-}
-.logoInstagram {
-  color: #db305e;
 }
 
 // Parallax
@@ -50,19 +38,5 @@ main {
   $blur: 0.2rem;
   > .parallax-background.has-blur {
     filter: blur($blur);
-  }
-}
-
-.members {
-  gap: 2rem;
-  .member {
-    border-bottom: 0.66rem $primary solid;
-    width: 22rem;
-    gap: 1rem;
-    margin-bottom: 0;
-    img {
-      max-width: 100%;
-      max-height: 8rem;
-    }
   }
 }

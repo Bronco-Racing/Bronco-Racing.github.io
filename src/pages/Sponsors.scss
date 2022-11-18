@@ -1,0 +1,15 @@
+@import '../index.scss';
+
+.members {
+  gap: 2rem;
+  .member {
+    border-bottom: 0.66rem $primary solid;
+    width: 22rem;
+    gap: 1rem;
+    margin-bottom: 0;
+    img {
+      max-width: 100%;
+      max-height: 8rem;
+    }
+  }
+}

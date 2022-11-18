@@ -1,53 +1,41 @@
-import SponsorCard from "./components/SponsorCard";
+import SponsorCard from '../components/SponsorCard'
+import './Sponsors.scss'
+import scu_logo from '../assets/scu_logo.png'
+import scdi from '../assets/SCDI.jpg'
+import altium_logo from '../assets/altium_logo.jpg'
 // import ContactForm from "./components/ContactForm";
 
 export default function Sponsors() {
   const sponsors = [
-    // Example:
-    // {
-    //   group: "Technology Partners",
-    //   members: [
-    //     {
-    //       name: "Nasa",
-    //       img: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/2449px-NASA_logo.svg.png",
-    //       description:
-    //         "The National Aeronautics and Space Administration is America’s civil space program and the global leader in space exploration. The agency has a diverse workforce of just under 18,000 civil servants, and works with many more U.S. contractors, academia, and international and commercial partners to explore, discover, and expand knowledge for the benefit of humanity.",
-    //       link: "nasa.gov",
-    //     },
-    //   ],
-    // },
     {
       members: [
         {
-          name: "Altium",
-          img: "https://mma.prnewswire.com/media/1009467/Altium_Black_Logo.jpg?p=facebook",
+          name: 'Altium',
+          img: altium_logo,
           description:
-            "From automotive and aerospace to consumer electronics and medical devices, Altium is always there for designers whenever and wherever.",
-          link: "https://www.altium.com",
-        },
-      ],
+            'From automotive and aerospace to consumer electronics and medical devices, Altium is always there for designers whenever and wherever.',
+          link: 'https://www.altium.com'
+        }
+      ]
     },
     {
-      group: "Special Thanks",
+      group: 'Special Thanks',
       members: [
         {
-          name: "Santa Clara University",
-          img: "https://upload.wikimedia.org/wikipedia/en/thumb/a/ad/Santa_Clara_U_Seal.svg/1200px-Santa_Clara_U_Seal.svg.png",
+          name: 'Santa Clara University',
+          img: scu_logo,
           description:
             "Located in the heart of Silicon Valley, Santa Clara University blends high-tech innovation with a social consciousness grounded in the Jesuit educational tradition. Santa Clara's undergraduate and graduate programs span areas ranging from psychology to sustainable-energy engineering and from theatre arts to business analytics.",
-          link: "https://www.scu.edu",
-        },
-      ],
-    },
-  ];
+          link: 'https://www.scu.edu'
+        }
+      ]
+    }
+  ]
 
   return (
     <>
       <div className="parallax">
-        <img
-          className="parallax-background has-blur"
-          src="https://www.scu.edu/media/institutional-pages/SCDI.jpeg"
-        />
+        <img className="parallax-background has-blur" src={scdi} />
 
         <div className="parallax-gap">
           <div className="hero is-medium container has-text-centered">
@@ -68,7 +56,7 @@ export default function Sponsors() {
                 {a.group ? (
                   <h3 className="subtitle is-3 has-text-centered">{a.group}</h3>
                 ) : (
-                  ""
+                  ''
                 )}
 
                 <div className="members is-flex is-flex-wrap-wrap is-justify-content-center">
@@ -106,5 +94,5 @@ export default function Sponsors() {
         </div>
       </div>
     </>
-  );
+  )
 }

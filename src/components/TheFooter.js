@@ -1,5 +1,5 @@
 import { IonIcon } from '@ionic/react'
-import { logoGithub, logoFacebook, logoInstagram } from 'ionicons/icons'
+import { logoGithub, logoFacebook, logoInstagram, mailOutline} from 'ionicons/icons'
 import './TheFooter.scss'
 
 export default function TheFooter() {
@@ -8,10 +8,10 @@ export default function TheFooter() {
       <div className="buttons socials is-flex-row is-justify-content-center">
         <a
           target="_blank"
-          href="https://github.com/Bronco-Racing"
+          href="mailto:srthompson@scu.edu"
           className="social mx-2"
         >
-          <IonIcon className="logoGithub icon is-medium" icon={logoGithub} />
+          <IonIcon className="mailOutline icon is-medium" icon={mailOutline} />
         </a>
 
         <a
@@ -34,6 +34,14 @@ export default function TheFooter() {
             className="logoFacebook icon is-ionic is-medium"
             icon={logoFacebook}
           />
+        </a>
+
+        <a
+          target="_blank"
+          href="https://github.com/Bronco-Racing"
+          className="social mx-2"
+        >
+          <IonIcon className="logoGithub icon is-medium" icon={logoGithub} />
         </a>
       </div>
     </footer>

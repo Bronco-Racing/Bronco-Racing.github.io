@@ -40,3 +40,27 @@ main {
     filter: blur($blur);
   }
 }
+
+.button{
+  background-color: #af123f;
+  color: white;
+  border-color: #af123f;
+  box-shadow: none;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-size: 20px;
+  transition-duration: 0.4s;
+  text-align: center;
+  margin-top: 1%;
+  min-width: 150px;
+}
+
+.button:hover {
+  background-color: white;
+  border-color: #af123f;
+  color: black;
+  box-shadow: none;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-size: 20px;
+}

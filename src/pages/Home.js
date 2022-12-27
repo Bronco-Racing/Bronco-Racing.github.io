@@ -25,7 +25,7 @@ export default function Home() {
             <p>
               We are a first year Formula SAE Electric team from Santa Clara University. Our mission is to ensure that our members can hone their mindset and skill set through the rigor of the Formula SAE competition.
             </p>
-            <button className="learn-more" onClick={navigateToAbout}>Learn More</button>
+            <button className="button" onClick={navigateToAbout}>Learn More</button>
           </div>
 
           <div className='text-cent'>
@@ -40,7 +40,7 @@ export default function Home() {
             <p>
               We are always looking for more sponsorships. We have multiple sponsorship tiers. For corporate sponsorships, please reach out to the team.
             </p>
-            <button className="learn-more" onClick={navigateToSponsor}>Sponsor Us</button>
+            <button className="button" onClick={navigateToSponsor}>Sponsor Us</button>
           </div>
 
         </div>

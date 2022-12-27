@@ -1,9 +1,7 @@
 import SponsorCard from '../components/SponsorCard'
 import './Sponsors.scss'
 import scu_logo from '../assets/scu_logo.png'
-import scdi from '../assets/SCDI.jpg'
 import altium_logo from '../assets/altium_logo.jpg'
-// import ContactForm from "./components/ContactForm";
 
 export default function Sponsors() {
   const sponsors = [
@@ -34,13 +32,17 @@ export default function Sponsors() {
 
   return (
     <>
-      <div className="parallax">
-        <img className="parallax-background has-blur" src={scdi} />
+      <div className="parallax sponsors">
+        <div class="bg-image"></div>
+
+        <div class="header">
+            <h1 className='title-ab is-1'>Sponsors</h1>
+        </div>
 
         <div className="parallax-gap">
           <div className="hero is-medium container has-text-centered">
             <div className="hero-body">
-              <p className="title">Sponsors</p>
+              {/* <p className="title header">Sponsors</p> */}
               <p className="subtitle">
                 Thank you to our sponsors, technology partners, and other
                 supportors. Without you, racing would be impossible.
@@ -74,9 +76,7 @@ export default function Sponsors() {
 
           <div className="section container">
             <h2 className="title is-3 has-text-centered">
-              <a href="https://forms.gle/bJu8PGZaXzDn2kXQ6" target="_blank">
                 Interested in joining them?
-              </a>
             </h2>
             <p className="content">
               Monetary sponsorships are not the only sponsorships we accept.
@@ -90,6 +90,9 @@ export default function Sponsors() {
               Our sponsorship packet details levels of sponsorship and what is
               included at each level.
             </p>
+            <div className="title has-text-centered">
+              <a class='button' href="mailto:srthompson@scu.edu" target="_blank">Contact Us</a>
+            </div>
           </div>
         </div>
       </div>

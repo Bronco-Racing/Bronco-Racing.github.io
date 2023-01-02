@@ -33,9 +33,9 @@ export default function Sponsors() {
   return (
     <>
       <div className="parallax sponsors">
-        <div class="bg-image"></div>
+        <div className="bg-image"></div>
 
-        <div class="header">
+        <div className="header">
             <h1 className='title-ab is-1'>Sponsors</h1>
         </div>
 
@@ -91,7 +91,7 @@ export default function Sponsors() {
               included at each level.
             </p>
             <div className="title has-text-centered">
-              <a class='button' href="mailto:srthompson@scu.edu" target="_blank">Contact Us</a>
+              <a className='button' href="mailto:srthompson@scu.edu" target="_blank">Contact Us</a>
             </div>
           </div>
         </div>

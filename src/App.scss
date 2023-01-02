@@ -42,9 +42,9 @@ main {
 }
 
 .button{
-  background-color: #af123f;
+  background-color: $primary;
   color: white;
-  border-color: #af123f;
+  border-color: $primary;
   box-shadow: none;
   padding: 10px 20px;
   border-radius: 12px;
@@ -57,7 +57,7 @@ main {
 
 .button:hover {
   background-color: white;
-  border-color: #af123f;
+  border-color: $primary;
   color: black;
   box-shadow: none;
   padding: 10px 20px;

@@ -2,9 +2,9 @@ import './About.scss'
 
 export default function About() {
   return <div className="about">
-      <div class="bg-image"></div>
+      <div className="bg-image"></div>
 
-      <div class="header">
+      <div className="header">
           <h1 className='title-ab is-1'>About</h1>
       </div>
 

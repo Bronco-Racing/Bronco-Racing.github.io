@@ -12,9 +12,9 @@ export default function Home() {
     navigate('/sponsors');
   };
     return  <div className="home">
-        <div class="bg-image"></div>
+        <div className="bg-image"></div>
 
-        <div class="header">
+        <div className="header">
             <h1 className='title-ab is-1'>Home</h1>
         </div>
 

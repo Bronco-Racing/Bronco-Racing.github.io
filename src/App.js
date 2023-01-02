@@ -1,10 +1,11 @@
 import React from 'react'
-import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route} from 'react-router-dom'
 
 import Home from './pages/Home'
 import About from './pages/About'
 import Sponsors from './pages/Sponsors'
 import TheFooter from './components/TheFooter'
+import Navbar from './components/Navbar'
 import './App.scss'
 
 export default function App() {
@@ -12,19 +13,8 @@ export default function App() {
     <Router>
       <div>
         <main>
-          <nav className="navbar">
-            <ul className="navbar-brand">
-              <li className="navbar-item">
-                <Link to="/">Home</Link>
-              </li>
-              <li className="navbar-item">
-                <Link to="/about">About</Link>
-              </li>
-              <li className="navbar-item">
-                <Link to="/sponsors">Sponsors</Link>
-              </li>
-            </ul>
-          </nav>
+          <Navbar>
+          </Navbar>
 
           {/* A <Switch> looks through its children <Route>s and
               renders the first one that matches the current URL. */}

@@ -1,3 +1,5 @@
+import './SponsorCard.scss';
+
 export default function SponsorCard(props) {
   return (
     <a

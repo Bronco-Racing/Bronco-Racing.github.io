@@ -2,6 +2,9 @@ import SponsorCard from '../components/SponsorCard'
 import './Sponsors.scss'
 import scu_logo from '../assets/scu_logo.png'
 import altium_logo from '../assets/altium_logo.jpg'
+import solidworks_logo from '../assets/solidworks.png'
+import mathworks_logo from '../assets/mathworks_logo.jpg'
+import altair_logo from '../assets/altair_logo.png'
 
 export default function Sponsors() {
   const sponsors = [
@@ -13,6 +16,26 @@ export default function Sponsors() {
           description:
             'From automotive and aerospace to consumer electronics and medical devices, Altium is always there for designers whenever and wherever.',
           link: 'https://www.altium.com'
+        },
+        {
+          name: 'SOLIDWORKS',
+          img: solidworks_logo,
+          description: "SOLIDWORKS delivers connected, easy-to-use tools that help you innovate and accelerate every aspect of your product development process.",
+          link: 'https://www.solidworks.com/',
+        },
+        {
+          name: 'MathWorks',
+          img: mathworks_logo,
+          description:
+            'MathWorks develops, sells, and supports MATLAB and Simulink products.',
+          link: 'https://www.mathworks.com/'
+        },
+        {
+          name: 'Altair',
+          img: altair_logo,
+          description:
+            'Altair provides software and cloud solutions for simulation, IoT, high performance computing, data analytics, and artificial intelligence',
+          link: 'https://www.altair.com/'
         }
       ]
     },
@@ -45,7 +68,7 @@ export default function Sponsors() {
               {/* <p className="title header">Sponsors</p> */}
               <p className="subtitle">
                 Thank you to our sponsors, technology partners, and other
-                supportors. Without you, racing would be impossible.
+                supporters. Without you, racing would be impossible.
               </p>
             </div>
           </div>

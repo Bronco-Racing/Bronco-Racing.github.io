@@ -1,6 +1,6 @@
 // got to be a better way to import this all at once
 import React from 'react'
-import "./AboutOurTeams.css"
+import "./AboutOurTeams.scss"
 import Zane from "../assets/Zane_Kempler.jpg"
 import Khris from "../assets/Kristoffer_Blomquist.jpg"
 import Eugene from "../assets/captain.png"
@@ -48,7 +48,6 @@ export default function AboutOurTeams() {
         </div>
             
             <div className='container'>
-                <h1>Meet the Team</h1>
                 <h3>Captains</h3>
                 <div className='Captain-Bios'>
                     <PersonElement name="James Masukawa" major="Mechanical Engineering" image={James} about={JamesBio}/>

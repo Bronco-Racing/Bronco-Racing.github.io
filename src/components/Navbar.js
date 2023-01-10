@@ -16,6 +16,9 @@ export default function Navbar() {
         <li className={`navbar-item ${location.pathname === '/sponsors' ? "active" : ""}`}>
           <Link to="/sponsors">Sponsors</Link>
         </li>
+        <li className={`navbar-item ${location.pathname === '/aboutourteam' ? "active" : ""}`}>
+          <Link to="/aboutourteam">Meet Our Team</Link>
+        </li>
       </ul>
     </nav>
   )

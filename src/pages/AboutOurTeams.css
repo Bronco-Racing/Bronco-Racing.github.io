@@ -1,0 +1,97 @@
+/* this is where I am having trouble with the image */
+.header {
+    background-color: #dddddd;
+    font-size: 2.5rem;
+    background-image: url("https://www.scu.edu/media/institutional-pages/academics/images/L2-Ac-LIBRARIES-MA15_Library_-5_15-339.jpg");
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.header-title {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.about-our-teams-title {
+    place-content: center;
+}
+
+.container {
+    font-size: 2.5rem;
+    text-align: center;
+    width: 900px;
+    margin: auto;
+}
+
+.container h3 {
+    padding: 20px;
+    font-size: 2.0rem;
+}
+
+.container p {
+    font-size: 1.0rem;
+}
+
+.Captain-Bios {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+
+.bio {
+    position: relative; 
+    display: inline-block;
+    place-content: top;
+    width: 200px;
+    height: 750px;
+    margin: 10px;
+}
+
+
+.bio-profile-image {
+    width: 200px;
+    height: 200px;
+}
+
+.bio-profile-info {
+    text-align: left;
+    padding-top: 10px;
+    width: 200px;
+    height: 100px;
+}
+
+.bio-profile-about {
+    margin-top: 10px;
+    width: 200px;
+    height: 470px;
+}
+
+.hr-element {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #af123f;
+}
+
+.in-touch-button {
+    color: #fff;
+    background-color: #af123f;
+    border-radius: 28px;
+    border: none;
+    padding: 10px 30px 10px 30px;
+    font-size: 1.0rem;
+    font-weight: bold;
+    border: none;
+}
+
+.in-touch-button:hover {
+    background-color: #3e7d98;
+}
+

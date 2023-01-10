@@ -39,10 +39,12 @@
 }
 
 .container {
-    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: max(100%, 414px);
+    margin: auto auto;
     text-align: center;
-    width: 900px;
-    margin: auto;
 }
 
 
@@ -59,6 +61,8 @@
 
 .Captain-Bios {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: top;
     justify-content: center;
 }

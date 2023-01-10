@@ -1,24 +1,37 @@
 /* this is where I am having trouble with the image */
 .header {
     background-color: #dddddd;
-    font-size: 2.5rem;
-    background-image: url("https://www.scu.edu/media/institutional-pages/academics/images/L2-Ac-LIBRARIES-MA15_Library_-5_15-339.jpg");
-    height: 800px;
+    background-image:url("../assets/Leadership.jpg");
+    /* Add the blur effect
+    filter: blur(8px);
+    -webkit-filter: blur(8px); */
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 50px;
 }
 
-.header-title {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+.header h1 {
     color: #fff;
 }
+
+.title-ab{
+    height: 500px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+    font-size: 5rem !important;
+    font-weight: 600;
+    line-height: 1.125;
+}
+
 
 .about-our-teams-title {
     place-content: center;

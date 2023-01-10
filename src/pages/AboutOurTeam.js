@@ -43,9 +43,9 @@ export default function AboutOurTeams() {
     var JordanBio = "My name is Jordan Mosakowski, and I am a junior Computer Science and Engineering student from Boulder, Colorado. Outside of school, you can find me playing piano, watching Formula 1 racing, or going to concerts."
     return (
         <>
-            <div className='header'>
-                <h1 className='header-title'>About Our Team</h1>
-            </div>
+        <div className="header">
+            <h1 className='title-ab is-1'>About Our Team</h1>
+        </div>
             
             <div className='container'>
                 <h1>Meet the Team</h1>

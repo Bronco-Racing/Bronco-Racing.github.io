@@ -5,6 +5,7 @@ import altium_logo from '../assets/altium_logo.jpg'
 import solidworks_logo from '../assets/solidworks.png'
 import mathworks_logo from '../assets/mathworks_logo.jpg'
 import altair_logo from '../assets/altair_logo.png'
+import ccm_logo from '../assets/ccm_logo.png'
 
 export default function Sponsors() {
   const sponsors = [
@@ -36,6 +37,13 @@ export default function Sponsors() {
           description:
             'Altair provides software and cloud solutions for simulation, IoT, high performance computing, data analytics, and artificial intelligence',
           link: 'https://www.altair.com/'
+        },
+        {
+          name: 'Cal Coast Machinery',
+          img: ccm_logo,
+          description:
+            'Cal-Coast Machinery has been the California Central Coast’s premier John Deere dealer for over 50 years.',
+          link: 'https://www.jdccm.com/'
         }
       ]
     },

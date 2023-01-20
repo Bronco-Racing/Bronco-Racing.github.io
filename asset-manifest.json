@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d9e53c0b.css",
+    "main.js": "/static/js/main.b716feb5.js",
+    "static/js/738.4b8ec7ef.chunk.js": "/static/js/738.4b8ec7ef.chunk.js",
+    "static/js/372.ce9edcc7.chunk.js": "/static/js/372.ce9edcc7.chunk.js",
+    "static/js/856.bdbfe041.chunk.js": "/static/js/856.bdbfe041.chunk.js",
+    "static/js/851.598e0ab2.chunk.js": "/static/js/851.598e0ab2.chunk.js",
+    "static/js/22.bb46089d.chunk.js": "/static/js/22.bb46089d.chunk.js",
+    "static/js/272.23f5c9a0.chunk.js": "/static/js/272.23f5c9a0.chunk.js",
+    "static/js/841.caf4415c.chunk.js": "/static/js/841.caf4415c.chunk.js",
+    "static/js/186.277feaea.chunk.js": "/static/js/186.277feaea.chunk.js",
+    "static/js/787.98cbaf7f.chunk.js": "/static/js/787.98cbaf7f.chunk.js",
+    "static/media/ccm_logo.png": "/static/media/ccm_logo.759e0b187d5068eeeb4b.png",
+    "static/media/SCDI.jpg": "/static/media/SCDI.86f5c96c8300063a09c9.jpg",
+    "static/media/scu_logo.png": "/static/media/scu_logo.2acaf7b078d169fbb1cd.png",
+    "static/media/mathworks_logo.jpg": "/static/media/mathworks_logo.629cdf0caa6916995c76.jpg",
+    "static/media/altair_logo.png": "/static/media/altair_logo.a77cf4fb221ac735f783.png",
+    "static/media/altium_logo.jpg": "/static/media/altium_logo.d2395984aa975b3fd1ba.jpg",
+    "static/media/solidworks.png": "/static/media/solidworks.7e7b543a2484b5e8b4e5.png",
+    "index.html": "/index.html",
+    "main.d9e53c0b.css.map": "/static/css/main.d9e53c0b.css.map",
+    "main.b716feb5.js.map": "/static/js/main.b716feb5.js.map",
+    "738.4b8ec7ef.chunk.js.map": "/static/js/738.4b8ec7ef.chunk.js.map",
+    "372.ce9edcc7.chunk.js.map": "/static/js/372.ce9edcc7.chunk.js.map",
+    "856.bdbfe041.chunk.js.map": "/static/js/856.bdbfe041.chunk.js.map",
+    "851.598e0ab2.chunk.js.map": "/static/js/851.598e0ab2.chunk.js.map",
+    "22.bb46089d.chunk.js.map": "/static/js/22.bb46089d.chunk.js.map",
+    "272.23f5c9a0.chunk.js.map": "/static/js/272.23f5c9a0.chunk.js.map",
+    "841.caf4415c.chunk.js.map": "/static/js/841.caf4415c.chunk.js.map",
+    "186.277feaea.chunk.js.map": "/static/js/186.277feaea.chunk.js.map",
+    "787.98cbaf7f.chunk.js.map": "/static/js/787.98cbaf7f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9e53c0b.css",
+    "static/js/main.b716feb5.js"
+  ]
+}
